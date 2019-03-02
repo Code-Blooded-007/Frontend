@@ -11,13 +11,20 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
-		<link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+
+        
 	</head>
 	<body class="landing">
 
@@ -40,6 +47,7 @@
 				<p>Made for Developers</p>
 				<ul class="actions">
 					<li>
+				<div class="search">
 					<div class="container 50%">
 						<div class="row uniform">
 							<div class="6u 12u$(small)">
@@ -47,6 +55,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				
 						<!-- <a href="#" class="button big">SEARCH</a> -->
 						<ul class="actions">
@@ -56,102 +65,47 @@
 				</ul>
 			</section>
 
-		<!-- One -->
-			<section id="one" class="section-bg">
-				<div class="container">
-					<header class="major">
-						<h2>TRENDING WEBSITES</h2>
-					</header>
-					<div class="table-wrapper">
-							<table>
-								<thead>
-									<tr>
-										<th>SR.NO</th>
-										<th>WEBSITE</th>
-										<th>STATUS</th>
-										<th>REMARK</th>
+		
+        
+            <div id="faq">
 
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-										<td>GOOGLE.COM</td>
-										<td>ACTIVE</td>
-										<td>WEBSITE RUNNING PERFECTLY</td>
-									</tr>
-									<tr>
-											<td>2</td>
-											<td>github.com</td>
-											<td>ACTIVE</td>
-											<td>WEBSITE RUNNING PERFECTLY</td>
-									</tr>
-									<tr>
-											<td>3</td>
-											<td>raisoni.net</td>
-											<td>INACTIVE</td>
-											<td>IT IS UNDER MAINTANENCE</td>
-									</tr>
-									<tr>
-											<td>4</td>
-											<td>codepen.com</td>
-											<td>ACTIVE</td>
-											<td>WEBSITE RUNNING PERFECTLY</td>
-									</tr>
-									<tr>
-											<td>5</td>
-											<td>atom.io</td>
-											<td>ACTIVE</td>
-											<td>WEBSITE RUNNING PERFECTLY</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+                <h1>FAQ?</h1>
 
-			</section>
-
-		<!-- Two -->
-			<!-- <section id="two" class="wrapper style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Lorem ipsum dolor sit</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
-					</header>
-					<section class="profiles">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Lorem ipsum</h4>
-								<p>Lorem ipsum dolor</p>
-							</section>
-							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dolores</h4>
-								<p>Ullam nihil repudi</p>
-							</section>
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Doloremque quo</h4>
-								<p>Harum corrupti quia</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dicta</h4>
-								<p>Et natus sapiente</p>
-							</section>
-						</div>
-					</section>
-					<footer>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button big">Lorem ipsum dolor sit</a>
-							</li>
-						</ul>
-					</footer>
-				</div>
-			</section> -->
-
+                <div id="accordion">
+                        <h3>Problem in receiving notification?</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione, obcaecati provident quidem iste perspiciatis consequatur ullam explicabo exercitationem. 
+                            Quia optio sint voluptatibus omnis eos tenetur dolores reiciendis labore expedita numquam!
+                    
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione, obcaecati provident quidem iste perspiciatis consequatur ullam explicabo exercitationem. 
+                            Quia optio sint voluptatibus omnis eos tenetur dolores reiciendis labore expedita numquam!
+                        </div>
+                    
+                        <h3>Problem regarding signing in?</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione, obcaecati provident quidem iste perspiciatis consequatur ullam explicabo exercitationem. 
+                            Quia optio sint voluptatibus omnis eos tenetur dolores reiciendis labore expedita numquam!
+                        </div>
+                    
+                        <h3>Problem in registration?</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione, obcaecati provident quidem iste perspiciatis consequatur ullam explicabo exercitationem. 
+                            Quia optio sint voluptatibus omnis eos tenetur dolores reiciendis labore expedita numquam!
+                        </div>
+                    
+                        <h3>Problem in receiving notification?</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione, obcaecati provident quidem iste perspiciatis consequatur ullam explicabo exercitationem. 
+                            Quia optio sint voluptatibus omnis eos tenetur dolores reiciendis labore expedita numquam!
+                        </div>
+                    
+                </div>
+            </div>
 		<!-- Three -->
 			<section id="three" class="wrapper style3 special">
 				<div class="container">
@@ -258,5 +212,12 @@
 				</div>
 			</footer>
 
-	</body>
+    </body>
+    <script>
+            $("#accordion").accordion({
+        
+                collapsible: true,
+                heightStyle: "content",
+            })
+            </script>
 </html>
