@@ -13,3 +13,18 @@
 .domain-link{
     color: #4cddff;
 }
+
+.edit-button{
+    float: right;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    height: 2vw;
+    width: 5vw;
+}
+
+.edit-button:hover,
+.edit-button:active{
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
