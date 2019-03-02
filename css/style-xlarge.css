@@ -9,3 +9,7 @@
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
+	.container1 {
+		padding:20px ;
+		background-color: white ;
+	}
