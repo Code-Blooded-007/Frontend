@@ -1,3 +1,11 @@
 .nav-color{
     background-color: #5a5a5a !important;
 }
+
+.heading-padding{
+    margin-top: 2% !important;
+}
+
+input[name="wname"]{
+    width: 36.5vw !important;
+}

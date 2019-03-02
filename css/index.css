@@ -11,3 +11,8 @@ input[type="text"]{
 .sch{
     margin-bottom: 2vw !important;
 }
+
+.button-hover:hover,
+.button-hover:active{
+    background-color: #a0a0a0 !important;
+}
