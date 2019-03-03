@@ -10,7 +10,8 @@ input[type="text"]{
 
 .sch{
     margin-bottom: 2vw !important;
-    width: 300px !important;
+/*    width: 36vw !important;*/
+    margin-right: auto;
 }
 
 .button-hover:hover,
